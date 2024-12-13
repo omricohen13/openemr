@@ -1,0 +1,3 @@
+[submodule "EMR/openemr/core"]
+	path = EMR/openemr/core
+	url = https://github.com/omricohen13/openemr.git

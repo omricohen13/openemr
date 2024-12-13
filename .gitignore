@@ -1,0 +1,26 @@
+
+cat > .gitignore << EOL
+# Sensitive files
+.env*
+*config.json
+*secrets*
+*private*
+*credentials*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependencies and builds
+node_modules/
+vendor/
+dist/
+build/
+*.log
+EOL
